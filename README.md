@@ -78,4 +78,5 @@ Alınan kararlar: Oyun tasarımı yapılarak hikaye oluşturulmuştur. Astronot 
   - Oyun hikayesi oluştururken vakit kaybedildi, gelecek sprint için developmenta ayrılan çabanın arttırılmasına karar verilmiştir.
   - Tahmin edilen puana ulaşılamamış, ikinci sprintin ilk 2 günü bu puanlara ayrılmıştır.
   - Görevlerin teslim tarihi konusunda sorunlar yaşanmış, sonraki sprintlerde kesin teslim tarihleri koyulmasına karar verilmiştir.
+  - Proje yönetiminin iyileştirilmesi için Miro kullanmaya karar verilmiştir.
   - Takım üyelerinin gelecek sprintlerde daha aktif olması gerektiğine vurgu yapılmıştır.
