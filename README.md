@@ -107,7 +107,8 @@ Alınan kararlar: Oyun tasarımı yapılarak hikaye oluşturulmuştur. Astronot 
   ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/41a2af0b-6468-4c45-ac1d-27f6947e2b68)
   ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/1e5602c4-8a98-4349-8106-181a6fc0a18d)
 
-
+- **Sprint Notları**: 
+  Bu sprintte, önceki sprintte tamamlanamayan mekaniklerin çoğu tamamlandı. Deadlinelara uymak konusunda sorun yaşayanlar oldu. Aktif çalışma süresi kısaldığı için sonraki sprinte daha çok iş kaldı.
 
 - **Sprint Review**: 
 Alınan kararlar: Modellemesi yapılamayan karakter, makine ve çevre için assetler bulunmuştur. Karakter için bulunan model asseti, sesler ve animasyon eklenmiş çalışabilir hale getirilmiştir. İlk gezegen için sahne oluşturulmuştur. Gece-gündüz döngüsü için kodlar yazılmış, bugların çözümü sonraki sprinte kalmıştır. Sprint Review katılımcıları: Neslihan Çetinkaya
