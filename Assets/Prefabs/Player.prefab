@@ -63,6 +63,7 @@ MonoBehaviour:
   - {fileID: 574911610594158335}
   - {fileID: 4584520609413084502}
   - {fileID: 405880211557289335}
+  duration: 0.05
   IsAnim: 0
 --- !u!1 &3716348087257181153
 GameObject:
@@ -189,7 +190,7 @@ MonoBehaviour:
   GroundedRadius: 0.28
   GroundLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 64
   CinemachineCameraTarget: {fileID: 4466858581347056902}
   TopClamp: 70
   BottomClamp: -30
