@@ -5,7 +5,7 @@ public class LightingManagertwo : MonoBehaviour
 {
     // Scene References
     [SerializeField] private Light DirectionalLight;
-    [SerializeField] private LightingPreset Preset;
+   
 
     // Day Counter References
     public TextMeshProUGUI dayText;
@@ -13,11 +13,11 @@ public class LightingManagertwo : MonoBehaviour
     private bool isFirstDay = true;
 
     // Day Cycle Variables
-    public float dayDuration = 30f; // Gündüz döngüsünün süresi (saniye)
+    public float dayDuration = 30f; // Gï¿½ndï¿½z dï¿½ngï¿½sï¿½nï¿½n sï¿½resi (saniye)
     private float dayTimer = 0f;
 
     // Night Cycle Variables
-    public float nightDuration = 30f; // Gece döngüsünün süresi (saniye)
+    public float nightDuration = 30f; // Gece dï¿½ngï¿½sï¿½nï¿½n sï¿½resi (saniye)
     private float nightTimer = 0f;
 
     private void Start()
@@ -27,8 +27,6 @@ public class LightingManagertwo : MonoBehaviour
 
     private void Update()
     {
-        if (Preset == null)
-            return;
 
         if (Application.isPlaying)
         {
@@ -38,7 +36,7 @@ public class LightingManagertwo : MonoBehaviour
             {
                 dayTimer = 0f;
                 DayCompleted();
-                // Gündüz döngüsünün tamamlandýðý yerde DayCompleted() metodunu çaðýrýn.
+                // Gï¿½ndï¿½z dï¿½ngï¿½sï¿½nï¿½n tamamlandï¿½ï¿½ï¿½ yerde DayCompleted() metodunu ï¿½aï¿½ï¿½rï¿½n.
             }
 
             nightTimer += Time.deltaTime;
@@ -48,29 +46,21 @@ public class LightingManagertwo : MonoBehaviour
                 nightTimer = 0f;
                 dayCount--;
                 DayCompleted();
-                // Gece döngüsünün tamamlandýðý yerde DayCompleted() metodunu çaðýrýn.
+                // Gece dï¿½ngï¿½sï¿½nï¿½n tamamlandï¿½ï¿½ï¿½ yerde DayCompleted() metodunu ï¿½aï¿½ï¿½rï¿½n.
             }
         }
 
-        // Gündüz ve gece döngüleri için gerçekleþtirilmesi gereken diðer iþlemler...
+        // Gï¿½ndï¿½z ve gece dï¿½ngï¿½leri iï¿½in gerï¿½ekleï¿½tirilmesi gereken diï¿½er iï¿½lemler...
 
         UpdateLighting();
     }
 
     private void UpdateLighting()
     {
-        if (Preset == null)
-            return;
-
-        // Set ambient and fog
-        RenderSettings.ambientLight = Preset.AmbientColor.Evaluate(dayTimer / dayDuration);
-        RenderSettings.fogColor = Preset.FogColor.Evaluate(dayTimer / dayDuration);
 
         // If the directional light is set then rotate and set its color
         if (DirectionalLight != null)
         {
-            DirectionalLight.color = Preset.DirectionalColor.Evaluate(dayTimer / dayDuration);
-
             DirectionalLight.transform.localRotation = Quaternion.Euler(new Vector3((dayTimer / dayDuration * 170f) - (-5f), 170f, 0));
         }
     }
@@ -85,12 +75,12 @@ public class LightingManagertwo : MonoBehaviour
     {
         if (isFirstDay)
         {
-            dayText.text = "1. gün";
+            dayText.text = "1. gï¿½n";
             isFirstDay = false;
         }
         else
         {
-            dayText.text = dayCount + ". gün";
+            dayText.text = dayCount + ". gï¿½n";
         }
     }
 }
