@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2969280093112566187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8936374269864365105}
+  m_Layer: 7
+  m_Name: Select
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8936374269864365105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2969280093112566187}
+  m_LocalRotation: {x: 0.00044378237, y: -0.64024717, z: 0.004771781, w: 0.76815397}
+  m_LocalPosition: {x: 28.734833, y: -6.2989345, z: 20.014048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1836255915168560254}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6439790813070945322
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,7 +44,7 @@ GameObject:
   - component: {fileID: 9052144524708622284}
   - component: {fileID: 3842139508832603420}
   - component: {fileID: 714409456735260556}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Land
   m_TagString: Land
   m_Icon: {fileID: 0}
@@ -27,13 +58,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6439790813070945322}
-  m_LocalRotation: {x: 0.009794067, y: 0.6402241, z: 0.0012947137, w: 0.7681247}
+  m_LocalRotation: {x: 0.009795531, y: 0.6402221, z: 0.0012980308, w: 0.76812637}
   m_LocalPosition: {x: 0, y: 0.00000017508864, z: -0.00000021785672}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8936374269864365105}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0.767, y: 79.627, z: 0.833}
 --- !u!33 &4403914794741983754
 MeshFilter:
@@ -121,5 +153,5 @@ MonoBehaviour:
   landStatus: 0
   soilMat: {fileID: 2100000, guid: 49f2ecb08a0c38140b335a0a1f7f66f4, type: 2}
   farmLandMat: {fileID: 2100000, guid: 3489747f3db184b49a3ca0a079d25a6e, type: 2}
-  select: {fileID: 0}
-  cropPrefab: {fileID: 0}
+  select: {fileID: 2969280093112566187}
+  cropPrefab: {fileID: 1000011580534764, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}

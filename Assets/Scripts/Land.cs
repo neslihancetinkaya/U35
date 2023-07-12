@@ -58,7 +58,7 @@ public class Land : MonoBehaviour
                 materialToSwitch = farmLandMat;
 
                 break;
-            
+
         }
 
         //Get the renderer to apply the changes
@@ -67,5 +67,32 @@ public class Land : MonoBehaviour
     public void Select(bool toggle)
     {
         select.SetActive(toggle);
+    }
+    //When the player presses the intetact button whýle selecting this land
+    public void Interact()
+    {
+        //Interaaction
+        SwitchLandStatus(LandStatus.Farmland);
+
+        {
+            //Instantiate the crop object parented to the land
+            GameObject cropObject = Instantiate(cropPrefab, transform);
+            //Move the crop object to the top of the land gameobjevt
+            cropObject.transform.position = new Vector3(transform.position.x, 51, transform.position.z);
+
+            //Access the CropBehaviour of the crop we're going to plant
+            cropPlanted = cropObject.GetComponent<CropBehaviour>();
+            //Plant it
+        }
+
+    }
+
+    public void ClockUpdate()
+    {
+        //Grow the planted crop, if any
+        if (cropPlanted != null)
+        {
+            cropPlanted.Grow();
+        }
     }
 }
