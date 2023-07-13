@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using Utils.RefValue;
 
 public class LightingManagertwo : MonoBehaviour
 {
@@ -8,22 +9,15 @@ public class LightingManagertwo : MonoBehaviour
    
 
     // Day Counter References
-    public TextMeshProUGUI dayText;
-    private int dayCount = 1;
-    private bool isFirstDay = true;
+    [SerializeField] private IntRef DayCount;
 
     // Day Cycle Variables
-    public float dayDuration = 30f; // G�nd�z d�ng�s�n�n s�resi (saniye)
+    public float dayDuration = 30f;
     private float dayTimer = 0f;
 
     // Night Cycle Variables
-    public float nightDuration = 30f; // Gece d�ng�s�n�n s�resi (saniye)
+    public float nightDuration = 30f;
     private float nightTimer = 0f;
-
-    private void Start()
-    {
-        UpdateDayText();
-    }
 
     private void Update()
     {
@@ -36,7 +30,6 @@ public class LightingManagertwo : MonoBehaviour
             {
                 dayTimer = 0f;
                 DayCompleted();
-                // G�nd�z d�ng�s�n�n tamamland��� yerde DayCompleted() metodunu �a��r�n.
             }
 
             nightTimer += Time.deltaTime;
@@ -44,20 +37,16 @@ public class LightingManagertwo : MonoBehaviour
             if (nightTimer >= nightDuration)
             {
                 nightTimer = 0f;
-                dayCount--;
+                DayCount.Value--;
                 DayCompleted();
-                // Gece d�ng�s�n�n tamamland��� yerde DayCompleted() metodunu �a��r�n.
             }
         }
-
-        // G�nd�z ve gece d�ng�leri i�in ger�ekle�tirilmesi gereken di�er i�lemler...
 
         UpdateLighting();
     }
 
     private void UpdateLighting()
     {
-
         // If the directional light is set then rotate and set its color
         if (DirectionalLight != null)
         {
@@ -67,20 +56,6 @@ public class LightingManagertwo : MonoBehaviour
 
     public void DayCompleted()
     {
-        dayCount++; 
-        UpdateDayText();
-    }
-
-    private void UpdateDayText()
-    {
-        if (isFirstDay)
-        {
-            dayText.text = "1. g�n";
-            isFirstDay = false;
-        }
-        else
-        {
-            dayText.text = dayCount + ". g�n";
-        }
+        DayCount.Value++;
     }
 }
