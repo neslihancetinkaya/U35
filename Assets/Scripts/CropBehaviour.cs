@@ -34,7 +34,7 @@ public class CropBehaviour : MonoBehaviour
         seedling = Instantiate(seedToGrow.seedling, transform);
 
         //Access the crop item data
-        ItemData cropToYield = seedToGrow.cropToYield;
+        ÝtemData cropToYield = seedToGrow.cropToYield;
 
         //Instantiate the harvestable crop
         harvestable = Instantiate(cropToYield.gameModel, transform);
@@ -84,14 +84,17 @@ public class CropBehaviour : MonoBehaviour
             case CropState.Seed:
                 //Enable the Seed GameObject
                 seed.SetActive(true);
+                Debug.Log("Crop state changed to: Seed");
                 break;
             case CropState.Seedling:
                 //Enable the Seedling GameObject
                 seedling.SetActive(true);
+                Debug.Log("Crop state changed to: Seedling");
                 break;
             case CropState.Harvestable:
                 //Enable the Harvestable GameObject
                 harvestable.SetActive(true);
+                Debug.Log("Crop state changed to: Harvestable");
                 //Unparent it to the crop
                 harvestable.transform.parent = null;
 

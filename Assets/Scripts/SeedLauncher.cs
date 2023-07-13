@@ -20,7 +20,7 @@ public class SeedLauncher : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             LaunchSeed();
         }
