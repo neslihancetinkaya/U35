@@ -2,7 +2,7 @@ using UnityEngine;
 using TMPro;
 using Utils.RefValue;
 
-public class LightingManagertwo : MonoBehaviour
+public class LightingManager : MonoBehaviour
 {
     // Scene References
     [SerializeField] private Light DirectionalLight;
