@@ -13,16 +13,20 @@ public class RopeEffect : MonoBehaviour
     {
         if (IsAnim)
         {
-            var sequence = DOTween.Sequence();
-            
-            foreach (var ropePart in RopeParts)
-            {
-                sequence.Append(ropePart.transform.DOScale(new Vector3(1.5f, 1, 1.5f), duration));
-                sequence.Append(ropePart.transform.DOScale(new Vector3(1, 1, 1), duration));
-            }
-            // Count increase here
+            PlayEffect();
             IsAnim = false;
         }
-        
+    }
+
+    public void PlayEffect()
+    {
+        var sequence = DOTween.Sequence();
+            
+        foreach (var ropePart in RopeParts)
+        {
+            sequence.Append(ropePart.transform.DOScale(new Vector3(1.5f, 1, 1.5f), duration));
+            sequence.Append(ropePart.transform.DOScale(new Vector3(1, 1, 1), duration));
+        }
+        // Count increase here
     }
 }
