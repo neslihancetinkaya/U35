@@ -73,12 +73,12 @@ public class Land : MonoBehaviour
     {
         //Interaaction
         SwitchLandStatus(LandStatus.Farmland);
-        if (landStatus == LandStatus.Farmland)
+
         {
             //Instantiate the crop object parented to the land
             GameObject cropObject = Instantiate(cropPrefab, transform);
             //Move the crop object to the top of the land gameobjevt
-            cropObject.transform.position = new Vector3(transform.position.x, 0, transform.position.z);
+            cropObject.transform.position = new Vector3(transform.position.x, 51, transform.position.z);
 
             //Access the CropBehaviour of the crop we're going to plant
             cropPlanted = cropObject.GetComponent<CropBehaviour>();

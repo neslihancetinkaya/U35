@@ -30,5 +30,4 @@ public class PlantGrownths : MonoBehaviour
             curretProgression++;
         }
     }
-
 }
