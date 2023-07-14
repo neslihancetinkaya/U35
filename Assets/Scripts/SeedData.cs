@@ -2,18 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Item/Seed")]
-public class SeedData : ÝtemData
+[CreateAssetMenu(menuName ="Ýtem/Seed")]
+public class SeedData : ItemData
 {
-    // time it takes before the seed matures into a crop
-    // tohumun ürüne dönüþmesi için geçen süre
+    //time it takes before the seed matures into a crop (tohum ürüne dönüþmesi için geçen süre/zaman)
     public int daysToGrow;
 
-    // the crop the seed will yield 
-    // tohumun vereceði mahsul
-    public ÝtemData cropToYield;
+    // The crop the seed will yield (tohumun vereceði mahsul)
+    public ItemData cropToYield;
 
-    // the seedling GameObject
+    // The seedling GameObject (Fide nesnesi)
     public GameObject seedling;
 }
-

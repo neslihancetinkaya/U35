@@ -15,6 +15,6 @@ MonoBehaviour:
   description: Seeds to grow radish
   thumbnail: {fileID: 21300000, guid: af055d62008e14d7cb107f7e408ab0f1, type: 3}
   gameModel: {fileID: 1000013984154124, guid: 9c0476b14d8c518499bcc0adff155ff8, type: 3}
-  daysToGrow: 2
+  daysToGrow: 0
   cropToYield: {fileID: 11400000, guid: d9336ec0726fcf646b7f0c6134232ea5, type: 2}
   seedling: {fileID: 1000010164499024, guid: f0666abddd74e5644ac4cf977d74e5e9, type: 3}
