@@ -122,10 +122,7 @@ namespace StarterAssets
             }
         }
 
-        //New
-        //Interaction components
-        PlayerInteraction playerInteraction;
-        //Finish
+
         private void Awake()
         {
             // get a reference to our main camera
@@ -153,11 +150,6 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
-
-            //New
-            //Get interaction component
-            playerInteraction = GetComponentInChildren<PlayerInteraction>();
-            //Finish
         }
 
         private void Update()
@@ -167,25 +159,7 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
-             //New
-            //Runs the function that hanbles all interaction
-            Interact();
         }
-
-        public void Interact()
-        {
-            //Tool interaction
-            if (Input.GetKeyDown("f"))
-            {
-                //Interact
-                playerInteraction.Interact();
-            }
-
-            //TODO: Set up item interaction
-        }
-        //Finish
-
-
 
         private void LateUpdate()
         {
@@ -411,16 +385,8 @@ namespace StarterAssets
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
-                //AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
+                AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
             }
         }
     }
-    //New
-    internal class PlayerInteraction
-    {
-        internal void Interact()
-        {
-            throw new System.NotImplementedException();
-        }
-    } //Finish
 }
