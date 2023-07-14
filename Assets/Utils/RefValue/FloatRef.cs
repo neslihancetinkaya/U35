@@ -2,7 +2,8 @@ using UnityEngine;
 
 namespace Utils.RefValue
 {
-    public class FloatRef : MonoBehaviour
+    [CreateAssetMenu]
+    public class FloatRef : ScriptableObject
     {
         public float Value
         {
