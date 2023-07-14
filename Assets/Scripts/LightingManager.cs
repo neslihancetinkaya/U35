@@ -13,11 +13,11 @@ public class LightingManager : MonoBehaviour
 
     // Day Cycle Variables
     public float dayDuration = 30f;
-    private float dayTimer = 0f;
+    private float dayTimer;
 
     // Night Cycle Variables
     public float nightDuration = 30f;
-    private float nightTimer = 0f;
+    private float nightTimer;
 
     private void Update()
     {
@@ -37,8 +37,6 @@ public class LightingManager : MonoBehaviour
             if (nightTimer >= nightDuration)
             {
                 nightTimer = 0f;
-                DayCount.Value--;
-                DayCompleted();
             }
         }
 
