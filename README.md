@@ -80,3 +80,34 @@ Alınan kararlar: Oyun tasarımı yapılarak hikaye oluşturulmuştur. Astronot 
   - Görevlerin teslim tarihi konusunda sorunlar yaşanmış, sonraki sprintlerde kesin teslim tarihleri koyulmasına karar verilmiştir.
   - Proje yönetiminin iyileştirilmesi için Miro kullanmaya karar verilmiştir.
   - Takım üyelerinin gelecek sprintlerde daha aktif olması gerektiğine vurgu yapılmıştır.
+ 
+    # Sprint 2
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 50 Puan
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 150 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in en azından 50 ile başlaması gerektiğine karar verildi.
+- **Daily Scrum**:
+    
+    ![1](https://user-images.githubusercontent.com/36277482/250406510-7d332f4f-127d-465a-9a6a-09cbf0a3271b.png)
+    
+    ![2](https://user-images.githubusercontent.com/36277482/250406334-8d59aac5-7cef-4d6b-8d47-6c3b3081db45.png)
+    
+    ![3](https://user-images.githubusercontent.com/36277482/250406399-91383b12-1559-41c5-afbe-d8dbe73ec73b.png)
+    
+- **Sprint board update**: Sprint board screenshotları:
+    
+    ![4](https://user-images.githubusercontent.com/36277482/250406103-2a99100a-c34b-4542-ac95-57705e043b57.png)
+    
+- **Ürün Durumu**: Ekran görüntüleri:
+    
+    ![5](https://user-images.githubusercontent.com/36277482/250406296-41a2af0b-6468-4c45-ac1d-27f6947e2b68.png)
+    
+    ![6](https://user-images.githubusercontent.com/36277482/250406567-1e5602c4-8a98-4349-8106-181a6fc0a18d.png)
+    
+- **Sprint Notları**: Bu sprintte, önceki sprintte tamamlanamayan mekaniklerin çoğu tamamlandı. Deadlinelara uymak konusunda sorun yaşayanlar oldu. Aktif çalışma süresi kısaldığı için sonraki sprinte daha çok iş kaldı.
+- **Sprint Review**: Alınan kararlar: Modellemesi yapılamayan karakter, makine ve çevre için assetler bulunmuştur. Karakter için bulunan model asseti, sesler ve animasyon eklenmiş çalışabilir hale getirilmiştir. İlk gezegen için sahne oluşturulmuştur. Gece-gündüz döngüsü için kodlar yazılmış, bugların çözümü sonraki sprinte kalmıştır. Sprint Review katılımcıları: Neslihan Çetinkaya
+- **Sprint Retrospective:**
+    - Önceki retrospective kararlarına genellikle uyulmuş, olumlu sonuç alınmıştır.
+    - İlk 2 gün ilk sprintin görevlerine ayrılmış, görevlerin çoğu tamamlanmıştır.
+    - Görevlerin teslim tarihi konusundaki sorunlar için kesin teslim tarihleri konulmuş, sonuç alınamamıştır.
+    - Proje yönetimi için Codecksten Miroya geçiş yapılmıştır.
+    - Takım üyelerinin gelecek sprintlerde daha aktif olması gerektiğine vurgu yapılmıştır.
