@@ -7,6 +7,7 @@ public class SceneChange : MonoBehaviour
 {
     [SerializeField] private int SceneIndex;
     [SerializeField] private Animator Transition;
+    [SerializeField] private float Duration = 1;
     private static readonly int Start = Animator.StringToHash("Start");
 
     void OnEnable()
@@ -18,7 +19,7 @@ public class SceneChange : MonoBehaviour
     {
         Transition.SetTrigger(Start);
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(Duration);
         
         SceneManager.LoadScene(sceneIndex);
     }

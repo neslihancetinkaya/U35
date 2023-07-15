@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,6 +8,11 @@ namespace DefaultNamespace
     {
         [SerializeField] private GameObject MainPanel;
         [SerializeField] private GameObject OptionsPanel;
+        [SerializeField] private Animator Transition;
+        
+        private static readonly int Start = Animator.StringToHash("Start");
+
+
         public void QuitGame()
         {
             Application.Quit();
@@ -14,7 +20,16 @@ namespace DefaultNamespace
         
         public void ChangeScene(int index)
         {
-                SceneManager.LoadScene(index);
+            StartCoroutine(LoadLevel(index));
+        }
+        
+        IEnumerator LoadLevel(int sceneIndex)
+        {
+            Transition.SetTrigger(Start);
+
+            yield return new WaitForSeconds(1);
+        
+            SceneManager.LoadScene(sceneIndex);
         }
 
         public void OnOptions()
