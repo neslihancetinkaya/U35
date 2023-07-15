@@ -49,7 +49,7 @@ https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=893958219063
 - [Simple Low Poly Nature Pack](https://assetstore.unity.com/packages/3d/environments/landscapes/simple-low-poly-nature-pack-157552)
 - [Rocket](https://www.cgtrader.com/free-3d-models/aircraft/other/low-poly-rocket-with-launch-pad)
 - [Stylized Astronaut](https://assetstore.unity.com/packages/3d/characters/humanoids/sci-fi/stylized-astronaut-114298)
-- [The Portal Collection] (https://assetstore.unity.com/packages/3d/environments/fantasy/the-portal-collection-205438)
+- [The Portal Collection](https://assetstore.unity.com/packages/3d/environments/fantasy/the-portal-collection-205438)
 
 
 ---
