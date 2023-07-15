@@ -11,10 +11,14 @@ namespace UI
     public class MainUIController : MonoBehaviour
     {
         [SerializeField] private Slider HealthBar;
+        [SerializeField] private FloatRef TimeOfDay;
+        [SerializeField] private IntRef DayCount;
         [SerializeField] private FloatRef Health;
         [SerializeField] private Text HealthText;
+        [SerializeField] private Text DayText;
         [SerializeField] private GameObject TabletPanel;
         [SerializeField] private GameObject OptionsPanel;
+        [SerializeField] private Image TimeOfDayImage;
         [SerializeField] private List<Slider> Stats;
         [SerializeField] private List<float> StatValues;
         private bool _isTablet = true;
@@ -23,6 +27,8 @@ namespace UI
         private void Update()
         {
             HealthBar.value = Health.Value / 100f;
+            TimeOfDayImage.fillAmount = TimeOfDay.Value / 100f;
+            DayText.text = "Day " + DayCount.Value;
             if (Input.GetKeyDown(KeyCode.E))
             {
                 OpenTablet(_isTablet);

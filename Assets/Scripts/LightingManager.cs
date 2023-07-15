@@ -10,6 +10,7 @@ public class LightingManager : MonoBehaviour
 
     // Day Counter References
     [SerializeField] private IntRef DayCount;
+    [SerializeField] private FloatRef TimeOfDay;
 
     // Day Cycle Variables
     public float dayDuration = 30f;
@@ -21,11 +22,9 @@ public class LightingManager : MonoBehaviour
 
     private void Update()
     {
-
         if (Application.isPlaying)
         {
             dayTimer += Time.deltaTime;
-
             if (dayTimer >= dayDuration)
             {
                 dayTimer = 0f;
@@ -48,12 +47,14 @@ public class LightingManager : MonoBehaviour
         // If the directional light is set then rotate and set its color
         if (DirectionalLight != null)
         {
+            TimeOfDay.Value = (dayTimer / dayDuration * 95f) + 5f;
             DirectionalLight.transform.localRotation = Quaternion.Euler(new Vector3((dayTimer / dayDuration * 170f) - (-5f), 170f, 0));
         }
     }
 
     public void DayCompleted()
     {
+        TimeOfDay.Value = 0;
         DayCount.Value++;
     }
 }
