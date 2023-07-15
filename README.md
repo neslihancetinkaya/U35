@@ -4,19 +4,19 @@ Takım U-35
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
-- Neslihan Çetinkaya: Scrum Master / Developer
-- Orkun Yılmaz: Product Owner / Developer
-- Defne Çivrilli: Developer
-- Kerem Dumanlı: Developer
+- Neslihan Çetinkaya: Scrum Master / Product Owner / Developer
 - Uğur Kocaman: Developer
+- Kerem Dumanlı: Developer
+- Defne Çivrilli: Developer
+- Orkun Yılmaz: Developer
 
 ## Ürün İsmi
 
---Game--
+Eternia
 
 ## Ürün Açıklaması
 
-Oyunumuz, artık yaşanamaz bir yer haline gelen Dünya'dan kaçıp X isimli gezegene yerleşen son insanın hikayesini anlatıyor. Karakterimiz bu gezegene can vermek için bitkiler yetiştiriyor ve hayatta kalmaya çalışıyor.
+Kıyamet sonrası dünya yaşanılamaz bir yer haline gelmiştir. Ana karakterimiz de kalan tüm insanlar gibi Dünya'dan kaçıp yaşanılabilir bir yer bulma arayaşına girmiştir. Eternia, insanlığın son umudu olarak keşfedilmeyi bekliyor. Diğer insanları bulup insanlığı kurtaran kahraman sen olabilecek misin? Gezegene can ver! Hayatta Kal! İnsanlığı kurtar!
 
 ## Ürün Özellikleri
 
@@ -32,13 +32,14 @@ Oyunumuz, artık yaşanamaz bir yer haline gelen Dünya'dan kaçıp X isimli gez
 
 ## Product Backlog URL
 
-![Backlog](https://github.com/neslihancetinkaya/U35/assets/36277482/2c2300b8-801a-40ab-b38f-4640777cddad)
+https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=893958219063
 
 
 ## Kullanılan Assetler
 
 - [Starter Assets - Third Person Character Controller | URP](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-urp-196526)
 - [Skybox Extended Shader](https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400)
+- [Easy UI](https://assetstore.unity.com/packages/2d/gui/icons/easy-ui-emerald-default-112796)
 
 
 ---
