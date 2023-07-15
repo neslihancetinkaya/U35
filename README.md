@@ -12,7 +12,7 @@ Takım U-35
 
 ## Ürün İsmi
 
-Etarnia
+Eternia
 
 ## Ürün Açıklaması
 
