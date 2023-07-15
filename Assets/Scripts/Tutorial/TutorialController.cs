@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using Utils.Event;
 using Utils.RefValue;
 
 namespace Tutorial
@@ -10,6 +11,7 @@ namespace Tutorial
         [SerializeField] private IntRef HarvestedCount;
         [SerializeField] private BoolRef Mission4;
         [SerializeField] private BoolRef Mission5;
+        [SerializeField] private GameEvent OpenTeleport;
 
         private bool _isUsed;
         private void Update()
@@ -28,8 +30,7 @@ namespace Tutorial
                 if (!_isUsed)
                 {
                     _isUsed = true;
-                    // Shader, meow etc
-
+                    OpenTeleport.Raise();
                 }
             }
         }
