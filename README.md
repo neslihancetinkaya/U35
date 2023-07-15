@@ -39,7 +39,7 @@ https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=893958219063
 
 - [Starter Assets - Third Person Character Controller | URP](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-urp-196526)
 - [Skybox Extended Shader](https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400)
-- [URP Stylized Water Shader]([https://assetstore.unity.com/packages/2d/gui/icons/easy-ui-emerald-default-112796](https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=893958219063))
+- [URP Stylized Water Shader](https://assetstore.unity.com/packages/2d/gui/icons/easy-ui-emerald-default-112796)
 - [Lagoon Shores](https://assetstore.unity.com/packages/audio/music/orchestral/lagoon-shores-176754)
 - [Cartoon Farm Crops](https://assetstore.unity.com/packages/3d/vegetation/plants/cartoon-farm-crops-79777)
 - [DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
