@@ -141,6 +141,7 @@ MonoBehaviour:
   Duration: 3
   IsPlantClose: 1
   PoofFX: {fileID: 122380438628468767}
+  PlantedCount: {fileID: 11400000, guid: 4e10645bdbd71df4f9edca2d6fa55388, type: 2}
 --- !u!1 &7481496482292013529
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using Utils.RefValue;
 
 namespace Farm
 {
@@ -17,6 +18,7 @@ namespace Farm
         [SerializeField] private float Duration;
         [SerializeField] private bool IsPlantClose;
         [SerializeField] private ParticleSystem PoofFX;
+        [SerializeField] private IntRef PlantedCount;
 
         private float _nextTime;
         private float _dissolve;
@@ -24,6 +26,7 @@ namespace Farm
 
         private void OnEnable()
         {
+            PlantedCount.Value++;
             DOVirtual.DelayedCall(Duration, () =>
             {
                 PoofFX.Play();
@@ -57,8 +60,6 @@ namespace Farm
                     Seed.SetActive(false);
                     Dirt.SetActive(true);
                     Dirt.transform.DOScale(Vector3.one * 2, .5f);
-                    
-                    
                 }
             }
         }

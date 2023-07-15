@@ -63,8 +63,19 @@ MonoBehaviour:
   - {fileID: 574911610594158335}
   - {fileID: 4584520609413084502}
   - {fileID: 405880211557289335}
+  ReverseRopeParts:
+  - {fileID: 405880211557289335}
+  - {fileID: 4584520609413084502}
+  - {fileID: 574911610594158335}
+  - {fileID: 1672498708648068956}
+  - {fileID: 4737078859948431456}
+  - {fileID: 8127175565505441124}
+  - {fileID: 6655324048365902850}
+  - {fileID: 1178634239700074983}
+  - {fileID: 645099801166646}
+  Health: {fileID: 0}
+  ThrowSeed: {fileID: 0}
   duration: 0.05
-  IsAnim: 0
 --- !u!1 &3716348087257181153
 GameObject:
   m_ObjectHideFlags: 0

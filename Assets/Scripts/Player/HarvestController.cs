@@ -2,6 +2,7 @@ using DG.Tweening;
 using Farm;
 using UnityEngine;
 using Utils.Event;
+using Utils.RefValue;
 
 namespace Player
 {
@@ -9,6 +10,7 @@ namespace Player
     {
         [SerializeField] private Transform VacuumPoint;
         [SerializeField] private GameEvent VacuumCrops;
+        [SerializeField] private IntRef HarvestedCount;
         private void OnTriggerEnter(Collider other)
         {
             other.TryGetComponent(out FruitCollider fruit);
@@ -20,6 +22,7 @@ namespace Player
                 {
                     Destroy(fruit.gameObject);
                     VacuumCrops.Raise();
+                    HarvestedCount.Value++;
                 });
             }
         }
