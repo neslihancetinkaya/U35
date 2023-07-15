@@ -12,11 +12,11 @@ Takım U-35
 
 ## Ürün İsmi
 
---Game--
+Etarnia
 
 ## Ürün Açıklaması
 
-Oyunumuz, artık yaşanamaz bir yer haline gelen Dünya'dan kaçıp X isimli gezegene yerleşen son insanın hikayesini anlatıyor. Karakterimiz bu gezegene can vermek için bitkiler yetiştiriyor ve hayatta kalmaya çalışıyor.
+Kıyamet sonrası dünya yaşanılamaz bir yer haline gelmiştir. Ana karakterimiz de kalan tüm insanlar gibi Dünya'dan kaçıp yaşanılabilir bir yer bulma arayaşına girmiştir. Eternia, insanlığın son umudu olarak keşfedilmeyi bekliyor. Diğer insanları bulup insanlığı kurtaran kahraman sen olabilecek misin? Gezegene can ver! Hayatta Kal! İnsanlığı kurtar!
 
 ## Ürün Özellikleri
 
@@ -39,6 +39,7 @@ Oyunumuz, artık yaşanamaz bir yer haline gelen Dünya'dan kaçıp X isimli gez
 
 - [Starter Assets - Third Person Character Controller | URP](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-urp-196526)
 - [Skybox Extended Shader](https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400)
+- [Easy UI](https://assetstore.unity.com/packages/2d/gui/icons/easy-ui-emerald-default-112796)
 
 
 ---
