@@ -39,7 +39,14 @@ https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=893958219063
 
 - [Starter Assets - Third Person Character Controller | URP](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-urp-196526)
 - [Skybox Extended Shader](https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400)
-- [Easy UI](https://assetstore.unity.com/packages/2d/gui/icons/easy-ui-emerald-default-112796)
+- [URP Stylized Water Shader]([https://assetstore.unity.com/packages/2d/gui/icons/easy-ui-emerald-default-112796](https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=893958219063))
+- [Lagoon Shores](https://assetstore.unity.com/packages/audio/music/orchestral/lagoon-shores-176754)
+- [Cartoon Farm Crops](https://assetstore.unity.com/packages/3d/vegetation/plants/cartoon-farm-crops-79777)
+- [DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
+- [Food Icons Pack](https://assetstore.unity.com/packages/2d/gui/icons/food-icons-pack-70018)
+- [Polygonal Particles Pack](https://assetstore.unity.com/packages/vfx/particles/polygonal-s-low-poly-particle-pack-118355)
+- [Sleek Essential UI Pack](https://assetstore.unity.com/packages/2d/gui/icons/sleek-essential-ui-pack-170650)
+- [Simple Low Poly Nature Pack](https://assetstore.unity.com/packages/3d/environments/landscapes/simple-low-poly-nature-pack-157552)
 
 
 ---
