@@ -86,7 +86,7 @@ MonoBehaviour:
   Fruit: {fileID: 1482243795201342330, guid: c2a2644fedfa0a849bbc9b40600c5c65, type: 3}
   PlantPoint: {fileID: 795914364811260977}
   SeedMaterial: {fileID: 2100000, guid: c0813d18e97d01c43a556e27b947fb53, type: 2}
-  Duration: 5
+  Duration: 3
   IsPlantClose: 0
   PoofFX: {fileID: 2711947587981041787}
 --- !u!1 &4966353956448460892

@@ -1,10 +1,10 @@
-using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using Player;
 using UnityEngine;
 using Utils.Event;
 
-namespace Player
+namespace Farm
 {
     public class PlantController : MonoBehaviour
     {

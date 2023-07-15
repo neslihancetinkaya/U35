@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using DG.Tweening;
+using StarterAssets;
 using UnityEngine;
 using UnityEngine.UI;
 using Utils.RefValue;
@@ -21,6 +22,7 @@ namespace UI
         [SerializeField] private Image TimeOfDayImage;
         [SerializeField] private List<Slider> Stats;
         [SerializeField] private List<float> StatValues;
+        [SerializeField] private ThirdPersonController TPS;
         private bool _isTablet = true;
         private bool _isOptions = true;
 
@@ -31,6 +33,7 @@ namespace UI
             DayText.text = "Day " + DayCount.Value;
             if (Input.GetKeyDown(KeyCode.E))
             {
+                TPS.LockCameraPosition = _isTablet;
                 OpenTablet(_isTablet);
                 _isTablet = !_isTablet;
             }
