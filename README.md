@@ -32,7 +32,7 @@ Kıyamet sonrası dünya yaşanılamaz bir yer haline gelmiştir. Ana karakterim
 
 ## Product Backlog URL
 
-[![Backlog](https://github.com/neslihancetinkaya/U35/assets/36277482/2c2300b8-801a-40ab-b38f-4640777cddad)](https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=893958219063)
+https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=893958219063
 
 
 ## Kullanılan Assetler
