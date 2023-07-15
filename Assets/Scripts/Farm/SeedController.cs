@@ -20,13 +20,13 @@ namespace Farm
 
         private float _nextTime;
         private float _dissolve;
+        private bool _isFirst;
 
         private void OnEnable()
         {
             DOVirtual.DelayedCall(Duration, () =>
             {
                 PoofFX.Play();
-                Dirt.SetActive(true);
                 Plant.SetActive(true);
             });
             DOVirtual.DelayedCall(2 * Duration, () =>
@@ -44,15 +44,22 @@ namespace Farm
         
         void Update()
         {
-            if (_dissolve < 1)
+            if (_dissolve < .8f)
             {
                 _dissolve += .005f;
                 SeedMaterial.SetFloat("_Dissolve", _dissolve);
-                //SeedMesh.material.SetFloat("_Dissolve", _dissolve);
             }
             else
             {
-                Seed.SetActive(false);
+                if (!_isFirst)
+                {
+                    _isFirst = true;
+                    Seed.SetActive(false);
+                    Dirt.SetActive(true);
+                    Dirt.transform.DOScale(Vector3.one * 2, .5f);
+                    
+                    
+                }
             }
         }
        
