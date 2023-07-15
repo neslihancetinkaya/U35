@@ -8,7 +8,6 @@ Takım U-35
 - Uğur Kocaman: Developer
 - Kerem Dumanlı: Developer
 - Defne Çivrilli: Developer
-- Orkun Yılmaz: Developer
 
 ## Ürün İsmi
 
@@ -122,3 +121,37 @@ Alınan kararlar: Oyun tasarımı yapılarak hikaye oluşturulmuştur. Astronot 
     - Görevlerin teslim tarihi konusundaki sorunlar için kesin teslim tarihleri konulmuş, sonuç alınamamıştır.
     - Proje yönetimi için Codecksten Miroya geçiş yapılmıştır.
     - Takım üyelerinin gelecek sprintlerde daha aktif olması gerektiğine vurgu yapılmıştır.
+ 
+      # Sprint 3
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 50 Puan
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 150 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde üçüncü sprint'in en azından 50 ile başlaması gerektiğine karar verildi.
+- **Daily Scrum**:
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/a4ce0df9-bf67-4485-99b8-50d98b9468a3)
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/69863b3b-7034-4987-875c-b997aecddaee)
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/5b3da8b0-fb38-475a-b920-25ae63dde878)
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/a2a12e87-25dd-4687-93e9-c2e7612dfce8)
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/e674ed6e-583c-44ce-af86-540e327ae7aa)
+
+    
+- **Sprint board update**: Sprint board screenshotları:
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/93cc0d68-a9ac-43dc-8d21-67bcf54c9722)
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/0f607bf3-3230-4bf3-9b22-0fd926859fbf)
+    [Board Link](https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=435923659618)
+
+    
+- **Ürün Durumu**: Ekran görüntüleri:
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/5a503f1c-ff03-4ccd-9d9c-1e9a775526dc)
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/86306e39-8ed5-47f5-a1d3-cf72abdb63cc)
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/97a87176-8d07-42a4-b3ae-777526aaa145)
+    ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/b8cf7600-3a22-4334-934a-34dc2cfbcf8f)
+
+    //Video link
+    
+- **Sprint Notları**: Bu sprintte hem önceki sprintlerin hem de bu sprintin görevleri yerine getirildi. Ekip üyesi tarafından tamamlanamayan görevler ekip arkadaşına devredildi.
+- **Sprint Review**: Alınan kararlar: Oynanışı etkileyecek bazı mekaniklerde değişiklikler yapıldı. Hikaye genişletildi. Önceki sprintten kalan buglar halledildi. Oynanış mekanikleri tamamlandı. Sprint Review katılımcıları: Neslihan Çetinkaya
+- **Sprint Retrospective:**
+    - Önceki sprintten kalan görevler de bu sprinte eklenmiş, yeniden planlama yapılmıştır.
+    - Takım üyesi tarafından yapılmayan görevler ekip arkadaşına devredilmiştir.
+    - Takım üyelerinin aktifliğine son kez vurgu yapılmış, sonuç alınamamıştır.
+    - Bir üye kendi kararı ile ayrılmıştır.
