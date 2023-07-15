@@ -49,7 +49,7 @@ namespace Farm
         {
             if (_dissolve < .8f)
             {
-                _dissolve += .005f;
+                _dissolve += .002f;
                 SeedMaterial.SetFloat("_Dissolve", _dissolve);
             }
             else
