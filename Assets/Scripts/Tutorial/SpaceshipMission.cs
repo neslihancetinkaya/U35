@@ -38,12 +38,12 @@ namespace Tutorial
             {
                 var go = Instantiate(SeedModel, player.transform);
                 go.transform.position = Point.position;
+                VacuumEffect.Raise();
                 DOVirtual.DelayedCall(.5f * i, () =>
                 {
                     go.transform.DOJump(player.SpawnPoint.position, 1.5f, 1, .5f).OnComplete(() =>
                     {
                         go.transform.DOScale(Vector3.zero, 1.5f);
-                        VacuumEffect.Raise();
                     });
                 });
                 Destroy(go, 10f);
