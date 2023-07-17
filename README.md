@@ -79,7 +79,7 @@ https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=893958219063
 ![Blend](https://github.com/neslihancetinkaya/U35/assets/36277482/58a37de0-0ec5-481a-aac7-0ded47e107fa)
 ![Night](https://github.com/neslihancetinkaya/U35/assets/36277482/847bd38d-3f02-4462-84f4-be1aac2cc9ba)
 
-
+- **Sprint Notları**: Bu sprintte, genel hatları ile hikaye oluşturuldu. Görev dağılımı yapıldı. Gerekli assetler için araştırma yapıldı. TPS Controller asseti eklendi, denemeleri yapıldı.
 - **Sprint Review**: 
 Alınan kararlar: Oyun tasarımı yapılarak hikaye oluşturulmuştur. Astronot modellemesine başlanmış, diğer modeller için assetler seçilmiştir. Gece-gündüz döngüsü ve çiftçilik için kodlar yazılmıştır. Sprint Review katılımcıları: Neslihan Çetinkaya
 
