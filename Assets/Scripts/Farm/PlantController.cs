@@ -3,6 +3,7 @@ using DG.Tweening;
 using Player;
 using UnityEngine;
 using Utils.Event;
+using Utils.RefValue;
 
 namespace Farm
 {
@@ -10,11 +11,15 @@ namespace Farm
     {
         public Transform SeedPoint;
         public GameEvent SeedPlant;
+        [SerializeField] private BoolRef Mission1;
         [SerializeField] private List<GameObject> Seeds;
 
         private bool _isUsed;
         private void OnTriggerEnter(Collider other)
         {
+            if(!Mission1.Value)
+                return;
+            
             if (_isUsed)
                 return;
             

@@ -33,7 +33,7 @@ Transform:
   - {fileID: 5644971608795451615}
   - {fileID: 7783298170116324144}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &756640944382640545
 BoxCollider:
@@ -70,6 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SeedPoint: {fileID: 5644971608795451615}
   SeedPlant: {fileID: 11400000, guid: a01aad20d6965b348a16782646d0fdf9, type: 2}
+  Mission1: {fileID: 11400000, guid: a546b1a30b93086419257f77b45ac8af, type: 2}
   Seeds:
   - {fileID: 2867879349438199953, guid: d192737490322d14b9287addb5bfed61, type: 3}
   - {fileID: 3830326658478371449, guid: 9b1406de4b8ec7e4d896e80ea0f99566, type: 3}
