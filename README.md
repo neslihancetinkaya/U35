@@ -28,6 +28,9 @@ Kıyamet sonrası dünya yaşanılamaz bir yer haline gelmiştir. Ana karakterim
 - Cozy game sevenler
 - Bilgisayar oyuncuları
 
+## Jüriye Not
+Videonun tamamı gameplaydir. Oyun, video için hızlandırılmıştır.
+
 ## Product Backlog URL
 
 https://miro.com/app/board/uXjVM9to0Ls=/?share_link_id=893958219063
@@ -148,7 +151,7 @@ Alınan kararlar: Oyun tasarımı yapılarak hikaye oluşturulmuştur. Astronot 
     ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/97a87176-8d07-42a4-b3ae-777526aaa145)
     ![image](https://github.com/neslihancetinkaya/U35/assets/36277482/b8cf7600-3a22-4334-934a-34dc2cfbcf8f)
 
-    //Video link
+    https://youtu.be/OcTylX0gi7s
     
 - **Sprint Notları**: Bu sprintte hem önceki sprintlerin hem de bu sprintin görevleri yerine getirildi. Ekip üyesi tarafından tamamlanamayan görevler ekip arkadaşına devredildi.
 - **Sprint Review**: Alınan kararlar: Oynanışı etkileyecek bazı mekaniklerde değişiklikler yapıldı. Hikaye genişletildi. Önceki sprintten kalan buglar halledildi. Oynanış mekanikleri tamamlandı. Sprint Review katılımcıları: Neslihan Çetinkaya
