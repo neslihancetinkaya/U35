@@ -4,9 +4,10 @@ Takım U-35
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
-- Neslihan Çetinkaya: Scrum Master / Product Owner / Developer
-- Kerem Dumanlı (Aktif olmayan üye)
-- Defne Çivrilli: (Aktif olmayan üye)
+- Neslihan Çetinkaya: Scrum Master / Product Owner
+- Kerem Dumanlı
+- Defne Çivrilli
+- Uğur Kocaman
 
 ## Ürün İsmi
 
